@@ -3,15 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^6.2.0",
+    "ajv-keywords": "^3.1.0",
+    "grommet": "^1.10.1",
+    "grommet-icons": "^0.15.0",
     "husky": "^0.14.3",
     "lint-staged": "^7.0.0",
     "prettier": "^1.11.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
-    "grommet": "https://github.com/grommet/grommet/tarball/NEXT-stable",
-    "grommet-icons": "https://github.com/grommet/grommet-icons/tarball/stable",
-    "styled-components": "^3.1.1"
+    "styled-components": "^2.2.3"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
