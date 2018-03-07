@@ -4,11 +4,22 @@ import Routing from './components/Routing';
 import logo from './logo.svg';
 import Hero from 'grommet/components/Hero';
 
+import { Clock } from 'grommet2';
+import { Grommet } from 'grommet2';
+
 class App extends Component {
   render() {
     return (
-      <div>
+      <Grommet>
         <div class="navbar">
+          <a href="/">
+            <Clock
+              type="digital"
+              size="small"
+              hourLimit="12"
+              precision="minutes"
+            />
+          </a>
           <a href="/">Home</a>
           <a href="/languages">Languages</a>
           <a href="/technologies">Technologies</a>
@@ -21,7 +32,7 @@ class App extends Component {
           </header>
         </Hero>
         <Routing />
-      </div>
+      </Grommet>
     );
   }
 }

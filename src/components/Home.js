@@ -4,6 +4,8 @@ import Hero from 'grommet/components/Hero';
 import Box from 'grommet/components/Box';
 import Heading from 'grommet/components/Heading';
 import Image from 'grommet/components/Image';
+import List from 'grommet/components/List';
+import ListItem from 'grommet/components/ListItem';
 
 class Home extends Component {
   render() {
@@ -37,33 +39,33 @@ class Home extends Component {
           <h2>
             <a name="intro">Introduction</a>
           </h2>
-          <ul>
-            <li>Employers</li>
-            <ul>
-              <li>
+          <List>
+            <ListItem>Employers</ListItem>
+            <List>
+              <ListItem>
                 <a href="http://hpe.com/">Hewlett-Packard Enterprise (HPE)</a>{' '}
                 (current employer)
-              </li>
-              <li>
+              </ListItem>
+              <ListItem>
                 <a href="http://www.waterford.org/">Waterford Institute</a>{' '}
                 (multi-media educational software non-profit organization).
-              </li>
-            </ul>
-            <li>
+              </ListItem>
+            </List>
+            <ListItem>
               Always teaching--I hold technical training sessions over lunch
               each week on items such as React, Grommet, and Redux.
-            </li>
-            <li>
+            </ListItem>
+            <ListItem>
               Always learning--I am continually reading/studying to learn
               different technologies. In December 2012 I received my Oracle
               Certified Professional certification.
-            </li>
-            <li>
+            </ListItem>
+            <ListItem>
               Test driven development--JUnit, PyUnit, NUnit, QUnit, Mockito,
               Power Mock, Perl unit tests
-            </li>
-            <li>Agile--Scrum, eXtreme Programming</li>
-          </ul>
+            </ListItem>
+            <ListItem>Agile--Scrum, eXtreme Programming</ListItem>
+          </List>
 
           <h2>
             <a name="languages">Languages Overview</a>
