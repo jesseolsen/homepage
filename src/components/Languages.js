@@ -41,7 +41,7 @@ class Home extends Component {
               React -- Started holding weekly brown-bag training meetings about
               React, Grommet, and Redux in 2017. Helped co-worker port legacy
               JavaScript charting website to React. This website is developed
-              with React and Grommet.
+              with React and Grommet 1 and 2.
             </li>
             <li>
               JavaScript -- HPE OneView GUI (JQuery/JavaScript); Various
@@ -97,7 +97,7 @@ class Home extends Component {
               I helped a co-worker port a legacy JavaScript charting website to
               React.
             </li>
-            <li>This website is developed with React and Grommet.</li>
+            <li>This website is developed with React and Grommet 1 and 2.</li>
           </ul>
 
           <h2>

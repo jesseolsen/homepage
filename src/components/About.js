@@ -25,6 +25,8 @@ const About = () => (
         </Box>
       </Box>
     </Hero>
+    <h2>About this website</h2>
+    <Box>This website was developed using React and Grommet 1 and 2.</Box>
     <h2>About Jesse</h2>
     <Box>
       Jesse Olsen has been developing software for over 20 years. He has a
@@ -33,10 +35,8 @@ const About = () => (
       He enjoys teaching others, and holds a weekly training meeting over lunch
       to teach others programming skills. He has developed code in React,
       JavaScript, Go, Python, Java, etc. He is an Eagle Scout, and has been an
-      adult leader in Boy Scouts. He has published a book.
+      adult leader in Boy Scouts.
     </Box>
-    <h2>About this website</h2>
-    <Box>This website was developed using React and Grommet.</Box>
   </div>
 );
 
