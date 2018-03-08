@@ -5,6 +5,7 @@
   "dependencies": {
     "ajv": "^6.2.0",
     "ajv-keywords": "^3.1.0",
+    "create-react-class": "^15.6.3",
     "grommet": "^1.10.1",
     "grommet-icons": "^0.15.0",
     "grommet2": "https://github.com/grommet/grommet.git#NEXT-stable",
@@ -16,6 +17,7 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.1",
     "react-transition-group": "^2.2.1",
+    "redux": "^3.7.2",
     "styled-components": "^2.2.3"
   },
   "lint-staged": {

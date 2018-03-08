@@ -13,8 +13,10 @@ class Technologies extends Component {
         <Hero
           background={
             <Image
-              src="./images/cliff.jpg"
+              src="./images/beachcliff.jpg"
               fit="cover"
+              height="100%"
+              width="100%"
               full={true}
               align={{ center: true }}
             />
@@ -81,9 +83,9 @@ class Technologies extends Component {
           <div>
             I came up with an idea I call Chameleon: An IDE plug-in where you
             type what you want the code to do, in English, and the plug-in
-            (Chameleon) will write the code for you in what ever programming
+            (Chameleon) will write the code for you in whatever programming
             language you are working in. I have started this and open sourced
-            it. See the source code and demo videos here:{' '}
+            it. See the source code and demo videos on GitHub:{' '}
             <Anchor
               label="Chameleon"
               href="https://github.com/ChameleonPlugins/chameleon-templates"
@@ -143,6 +145,7 @@ class Technologies extends Component {
             Database in 2012.
             <div>
               <img
+                class="shadow"
                 src="./images/oracle.png"
                 alt="Oracle Certified Professional Logo"
               />

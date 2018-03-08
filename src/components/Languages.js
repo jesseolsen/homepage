@@ -12,8 +12,10 @@ class Home extends Component {
         <Hero
           background={
             <Image
-              src="./images/whale.jpg"
+              src="./images/beachpalmtrees.jpg"
               fit="cover"
+              height="100%"
+              width="100%"
               full={true}
               align={{ center: true }}
             />
@@ -30,7 +32,7 @@ class Home extends Component {
         </Hero>
         <div className="App-body">
           <p className="App-intro">
-            Here are some of the programming languages I am familiar with.
+            Here are some of the programming languages I am skilled in.
           </p>
 
           <h2>
@@ -41,7 +43,7 @@ class Home extends Component {
               React -- Started holding weekly brown-bag training meetings about
               React, Grommet, and Redux in 2017. Helped co-worker port legacy
               JavaScript charting website to React. This website is developed
-              with React and Grommet 1 and 2.
+              with React, Redux, and Grommet 1 and 2.
             </li>
             <li>
               JavaScript -- HPE OneView GUI (JQuery/JavaScript); Various
@@ -97,7 +99,9 @@ class Home extends Component {
               I helped a co-worker port a legacy JavaScript charting website to
               React.
             </li>
-            <li>This website is developed with React and Grommet 1 and 2.</li>
+            <li>
+              This website is developed with React, Redux, and Grommet 1 and 2.
+            </li>
           </ul>
 
           <h2>
