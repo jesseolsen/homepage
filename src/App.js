@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-
-import Routing from './components/Routing';
 import logo from './logo.svg';
 import Hero from 'grommet/components/Hero';
-
 import { Clock } from 'grommet2';
 import { Grommet } from 'grommet2';
+
+import Container from './components/Logo';
+import Routing from './components/Routing';
 
 class App extends Component {
   render() {
     return (
       <Grommet>
-        <div class="navbar">
+        <div className="navbar">
           <a href="/">
             <Clock
               type="digital"
@@ -29,6 +29,7 @@ class App extends Component {
           <header className="App-header">
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="App-title">Jesse Olsen</h1>
+            <Container />
           </header>
         </Hero>
         <Routing />

@@ -9,7 +9,9 @@ const About = () => (
     <Hero
       background={
         <Image
-          src="./images/shark.jpg"
+          src="./images/beachstairs.jpg"
+          height="100%"
+          width="100%"
           fit="cover"
           full={true}
           align={{ center: true }}
@@ -26,7 +28,9 @@ const About = () => (
       </Box>
     </Hero>
     <h2>About this website</h2>
-    <Box>This website was developed using React and Grommet 1 and 2.</Box>
+    <Box>
+      This website was developed using React, Redux, and Grommet 1 and 2.
+    </Box>
     <h2>About Jesse</h2>
     <Box>
       Jesse Olsen has been developing software for over 20 years. He has a
