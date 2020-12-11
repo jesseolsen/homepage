@@ -1,36 +1,12 @@
 import React, { Component } from 'react';
+import { Anchor, Box, Heading } from 'grommet';
+
 import '../App.css';
-import Hero from 'grommet/components/Hero';
-import Box from 'grommet/components/Box';
-import Heading from 'grommet/components/Heading';
-import Image from 'grommet/components/Image';
-import Anchor from 'grommet/components/Anchor';
 
 class Technologies extends Component {
   render() {
     return (
       <div>
-        <Hero
-          background={
-            <Image
-              src="./images/beachcliff.jpg"
-              fit="cover"
-              height="100%"
-              width="100%"
-              full={true}
-              align={{ center: true }}
-            />
-          }
-          backgroundColorIndex="dark"
-          size="large"
-        >
-          <Box direction="row" justify="center" align="center">
-            <Box basis="1/2" align="end" pad="medium" />
-            <Box basis="1/2" align="start" pad="medium">
-              <Heading margin="none">Jesse Olsen</Heading>
-            </Box>
-          </Box>
-        </Hero>
         <div className="App-body">
           <p className="App-intro">
             This is a portfolio showing some of the software development I have

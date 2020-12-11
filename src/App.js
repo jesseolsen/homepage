@@ -1,17 +1,20 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import Hero from 'grommet/components/Hero';
-import { Clock } from 'grommet2';
-import { Grommet } from 'grommet2';
+import {
+  Box,
+  Clock,
+  Grommet,
+  Image,
+  Text,
+} from 'grommet';
 
-import Container from './components/Logo';
+import logo from './images/logo.svg';
 import Routing from './components/Routing';
 
 class App extends Component {
   render() {
     return (
       <Grommet>
-        <div className="navbar">
+        <Box direction='row' className="navbar">
           <a href="/">
             <Clock
               type="digital"
@@ -24,14 +27,16 @@ class App extends Component {
           <a href="/languages">Languages</a>
           <a href="/technologies">Technologies</a>
           <a href="/about">About</a>
-        </div>
-        <Hero>
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Jesse Olsen</h1>
-            <Container />
-          </header>
-        </Hero>
+          <a href="/">
+            <Box align='stretch'>
+              <Text size='xxlarge'>Jesse Olsen</Text>
+            </Box>
+          </a>
+          <a href="https://reactjs.org">
+            <Image background-size='small' src={logo} className="React-logo" alt="logo" />
+          </a>
+        </Box>
+        <header className="App-header" />
         <Routing />
       </Grommet>
     );

@@ -1,73 +1,59 @@
 import React, { Component } from 'react';
+import { Box, Heading } from 'grommet';
+
 import '../App.css';
-import Hero from 'grommet/components/Hero';
-import Box from 'grommet/components/Box';
-import Heading from 'grommet/components/Heading';
-import Image from 'grommet/components/Image';
-import List from 'grommet/components/List';
-import ListItem from 'grommet/components/ListItem';
 
 class Home extends Component {
   render() {
     return (
-      <div>
-        <Hero
-          background={
-            <Image
-              src="./images/beachboat.jpg"
-              fit="cover"
-              height="100%"
-              width="100%"
-              full={true}
-              align={{ center: true }}
-            />
-          }
-          backgroundColorIndex="dark"
-          size="large"
-        >
-          <Box direction="row" justify="center" align="center">
-            <Box basis="1/2" align="end" pad="medium" />
-            <Box basis="1/2" align="start" pad="medium">
-              <Heading margin="none">Jesse Olsen</Heading>
-            </Box>
-          </Box>
-        </Hero>
-        <div className="App-body">
+      <Box>
+        <Box className="App-body">
           <p className="App-intro">
             This is a portfolio showing some of the software development I have
             done over the years, at work as well as at home.
           </p>
 
+          <img
+            alt="HPE GreenLake Central screenshot"
+            class="shadow"
+            width="1024"
+            src="./images/greenlake-react.jpg"
+          />
+
           <h2>
             <a name="intro">Introduction</a>
           </h2>
-          <List>
-            <ListItem>Employers</ListItem>
-            <List>
-              <ListItem>
+          <ul>
+            <li>Employers</li>
+            <ul>
+              <li>
                 <a href="http://hpe.com/">Hewlett-Packard Enterprise (HPE)</a>{' '}
-                (current employer)
-              </ListItem>
-              <ListItem>
+                  (current employer)
+              </li>
+              <li>
                 <a href="http://www.waterford.org/">Waterford Institute</a>{' '}
                 (multi-media educational software non-profit organization).
-              </ListItem>
-            </List>
-            <ListItem>
-              Always teaching--I hold technical training sessions over lunch
-              each week on items such as React, Grommet, and Redux.
-            </ListItem>
-            <ListItem>
-              Always learning--I am continually reading/studying to learn
-              different technologies. In December 2012 I received my Oracle
-              Certified Professional certification.
-            </ListItem>
-            <ListItem>
-              Test driven development--JUnit, PyUnit, NUnit, QUnit, Mockito,
-              Power Mock, Perl unit tests
-            </ListItem>
-            <ListItem>Agile--Scrum, eXtreme Programming</ListItem>
-          </List>
+              </li>
+            </ul>
+          </ul>
+          <ul>
+            <li>
+                Teaching--For years I have held technical training sessions over lunch
+                each week on items such as React, Grommet, and Redux.
+            </li>
+            <li>
+                Learning--I am continually reading/studying to learn
+                different technologies. In December 2012 I received my Oracle
+                Certified Professional certification.
+            </li>
+            <li>
+                Test driven development--JUnit, PyUnit, NUnit, QUnit, Mockito,
+                Power Mock, Perl unit tests
+            </li>
+            <li>
+                Agile--Scrum, eXtreme Programming
+            </li>
+          </ul>
 
           <h2>
             <a name="languages">Languages Overview</a>
@@ -77,7 +63,7 @@ class Home extends Component {
               React -- Started holding weekly brown-bag training meetings about
               React, Grommet, and Redux in 2017. Helped co-worker port legacy
               JavaScript charting website to React. This website is developed
-              with React, Redux, and Grommet 1 and 2.
+              with React.
             </li>
             <li>
               JavaScript -- HPE OneView GUI (JQuery/JavaScript); Various
@@ -147,8 +133,8 @@ class Home extends Component {
               and HP-UX.
             </li>
           </ul>
-        </div>
-      </div>
+        </Box>
+      </Box>
     );
   }
 }
