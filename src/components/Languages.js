@@ -1,35 +1,10 @@
 import React, { Component } from 'react';
 import '../App.css';
-import Hero from 'grommet/components/Hero';
-import Box from 'grommet/components/Box';
-import Heading from 'grommet/components/Heading';
-import Image from 'grommet/components/Image';
-
-class Home extends Component {
+import { Box, Heading } from 'grommet';
+class Language extends Component {
   render() {
     return (
       <div>
-        <Hero
-          background={
-            <Image
-              src="./images/beachpalmtrees.jpg"
-              fit="cover"
-              height="100%"
-              width="100%"
-              full={true}
-              align={{ center: true }}
-            />
-          }
-          backgroundColorIndex="dark"
-          size="large"
-        >
-          <Box direction="row" justify="center" align="center">
-            <Box basis="1/2" align="end" pad="medium" />
-            <Box basis="1/2" align="start" pad="medium">
-              <Heading margin="none">Jesse Olsen</Heading>
-            </Box>
-          </Box>
-        </Hero>
         <div className="App-body">
           <p className="App-intro">
             Here are some of the programming languages I am skilled in.
@@ -43,7 +18,7 @@ class Home extends Component {
               React -- Started holding weekly brown-bag training meetings about
               React, Grommet, and Redux in 2017. Helped co-worker port legacy
               JavaScript charting website to React. This website is developed
-              with React, Redux, and Grommet 1 and 2.
+              with React.
             </li>
             <li>
               JavaScript -- HPE OneView GUI (JQuery/JavaScript); Various
@@ -92,6 +67,16 @@ class Home extends Component {
           </h2>
           <ul>
             <li>
+              I helped develop HPE GreenLake Central from the ground up, in React, Redux,
+              sagas, AWS, and Grommet.
+            </li>
+            <img
+              alt="HPE GreenLake Central screenshot"
+              class="shadow"
+              width="1024"
+              src="./images/greenlake.jpg"
+            />
+            <li>
               In 2017, I started holding weekly brown-bag training meetings
               about React, Grommet, and Redux.
             </li>
@@ -100,7 +85,7 @@ class Home extends Component {
               React.
             </li>
             <li>
-              This website is developed with React, Redux, and Grommet 1 and 2.
+              This website is developed with React.
             </li>
           </ul>
 
@@ -113,9 +98,10 @@ class Home extends Component {
               the Enclosure Manager section of the code.
             </li>
             <img
-              class="shadow"
-              src="./images/oneview.jpg"
               alt="HPE OneView screenshot"
+              class="shadow"
+              width="1024"
+              src="./images/oneview.jpg"
             />
 
             <li>
@@ -126,9 +112,10 @@ class Home extends Component {
               Uses RSS feed to obtain movies and other information.
             </li>
             <img
-              class="shadow"
-              src="./images/redbox_ss.png"
               alt="RedBox App screenshot"
+              class="shadow"
+              max-width="100%"
+              src="./images/redbox_ss.png"
             />
           </ul>
 
@@ -139,9 +126,10 @@ class Home extends Component {
             <li>Kelog logging library for HPE OneSphere.</li>
             <li>Insights for HPE OneSphere.</li>
             <img
-              class="shadow"
-              src="./images/onesphere.gif"
               alt="HPE OneShpere screenshot"
+              class="shadow"
+              width="1024"
+              src="./images/onesphere.gif"
             />
           </ul>
 
@@ -202,9 +190,10 @@ class Home extends Component {
                 </ul>
               </ul>
               <img
-                class="shadow"
-                src="./images/labman3.png"
                 alt="labman3 screenshot"
+                class="shadow"
+                max-width="100%"
+                src="./images/labman3.png"
               />
               <br />
               To find what drivers/fw to download, LabMan crawls the web,
@@ -365,9 +354,10 @@ class Home extends Component {
             <li>DataMover developed in Perl</li>
             <li>HealthMonitor developed in Perl, PHP, and HTML:</li>
             <img
+              alt="health monitor screenshot"
               class="shadow"
               src="./images/healthMonitor.png"
-              alt="health monitor screenshot"
+              max-width="100%"
             />
             <li>
               DataBase modification script--modify Oracle DB using Perl and SQL.
@@ -520,4 +510,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default Language;
