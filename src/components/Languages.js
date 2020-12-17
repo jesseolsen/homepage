@@ -4,8 +4,8 @@ import { Box, Heading } from 'grommet';
 class Language extends Component {
   render() {
     return (
-      <div>
-        <div className="App-body">
+      <Box>
+        <Box className="App-body">
           <p className="App-intro">
             Here are some of the programming languages I am skilled in.
           </p>
@@ -15,13 +15,13 @@ class Language extends Component {
           </h2>
           <ul>
             <li>
-              React -- Started holding weekly brown-bag training meetings about
+              <a href="#react">React</a> -- Started holding weekly brown-bag training meetings about
               React, Grommet, and Redux in 2017. Helped co-worker port legacy
               JavaScript charting website to React. This website is developed
               with React.
             </li>
             <li>
-              JavaScript -- HPE OneView GUI (JQuery/JavaScript); Various
+              <a href="#javascript">JavaScript</a> -- HPE OneView GUI (JQuery/JavaScript); Various
               JavaScript items, such as iGoogle Google Gadgets.
             </li>
             <li>Go -- Kelog logging library for HPE OneSphere.</li>
@@ -62,33 +62,42 @@ class Language extends Component {
             </li>
           </ul>
 
-          <h2>
-            <a name="react">React</a>
-          </h2>
-          <ul>
-            <li>
-              I helped develop HPE GreenLake Central from the ground up, in React, Redux,
-              sagas, AWS, and Grommet.
-            </li>
+          <section id="react">
+              <img
+                alt="HPE GreenLake Central screenshot"
+                class="shadow"
+                width="1024"
+                src="./images/greenlake.jpg"
+              />
+            <h2>
+              <a name="react">React</a>
+            </h2>
+            <ul>
+              <li>
+                I helped develop HPE GreenLake Central from the ground up, in React, Redux,
+                sagas, AWS, and Grommet.
+              </li>
+              <li>
+                In 2017, I started holding weekly brown-bag training meetings
+                about React, Grommet, and Redux.
+              </li>
+              <li>
+                I helped a co-worker port a legacy JavaScript charting website to
+                React.
+              </li>
+              <li>
+                This website is developed with React.
+              </li>
+            </ul>
+          </section>
+
+          <section id="javascript"/>
             <img
-              alt="HPE GreenLake Central screenshot"
+              alt="HPE OneView screenshot"
               class="shadow"
               width="1024"
-              src="./images/greenlake.jpg"
+              src="./images/oneview.jpg"
             />
-            <li>
-              In 2017, I started holding weekly brown-bag training meetings
-              about React, Grommet, and Redux.
-            </li>
-            <li>
-              I helped a co-worker port a legacy JavaScript charting website to
-              React.
-            </li>
-            <li>
-              This website is developed with React.
-            </li>
-          </ul>
-
           <h2>
             <a name="javascript">JavaScript</a>
           </h2>
@@ -97,12 +106,6 @@ class Language extends Component {
               HPE OneView's GUI front-end, in JQuery and JavaScript. Focused on
               the Enclosure Manager section of the code.
             </li>
-            <img
-              alt="HPE OneView screenshot"
-              class="shadow"
-              width="1024"
-              src="./images/oneview.jpg"
-            />
 
             <li>
               Google Gadgets, such as this RedBox movies gadget that shows
@@ -504,8 +507,8 @@ class Language extends Component {
               to listed web pages and calling phone numbers listed in the app.
             </li>
           </ul>
-        </div>
-      </div>
+        </Box>
+      </Box>
     );
   }
 }
