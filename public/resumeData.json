@@ -1,0 +1,169 @@
+{
+  "main": {
+    "name":"Jesse Olsen",
+    "occupation":"Senior Software Engineer",
+    "description":"I am currently looking for a remote ReactJS Senior Software Engineer position",
+    "image":"profilepic.jpg",
+    "bio":"I am passionate about ReactJS development, working with React, Redux, Sagas, etc. I also have a lot of backend development expericen with valious languages including Python, GoLang, PHP, Java, C#, C++, etc.",
+    "contactmessage":"",
+    "email": "",
+    "phone": "",
+    "address":{
+      "street":"(Seeking remote React position)",
+      "city":"Fort Collins",
+      "state":"Colorado",
+      "zip": "80525"
+    },
+    "website": "http://jesse.olsen.org",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/jesse-olsen/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/jesseolsen",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "education":[
+      {
+        "school":"Brigham Young University, Provo",
+        "degree":"Masters in Computer Science",
+        "graduated":"April 1998",
+        "description":"Thesis: Application Independent UNDO at the Java Byte-code Level"
+      },
+      {
+        "school":"Brigham Young University, Provo",
+        "degree":"Bachelors in Computer Science",
+        "graduated":"April 1996",
+        "description":"Data structures, databases, operating systems, compilers, oh my!"
+      }
+    ],
+    "work":[
+      {
+        "company":"Hewlett Packard Enterprise, Fort Collins, CO",
+        "title":"Software Engineer",
+        "years":"2005 - Present",
+        "description":"HPE GreenLake Central Lab, OneSphere, OneView. ReactJS, Redux, Sagas, GoLang, Python, JavaScript, and Java."
+      },
+      {
+        "company":"Hewlett Packard Enterprise, San Diego, CA",
+        "title":"Software Engineer",
+        "years":"2002 - 2005",
+        "description":"All-In-One Software Integration and Release Team, C#, Python"
+      },
+      {
+        "company":"Hewlett Packard Enterprise, Fort Collins, CO",
+        "title":"Software Engineer",
+        "years":"1998 - 2002",
+        "description":"Web Services Tools, OpenStudio, Ignite-UX"
+      },
+      {
+        "company":"Waterford Institute, Provo, UT",
+        "title":"Software Engineer",
+        "years":"1994 - 1998",
+        "description":"Multi-media educational software, C++"
+      }
+    ],
+    "skillmessage":"These are some of the skills I have acquired over the years",
+    "skills":[
+      {
+        "name":"ReactJs",
+        "level":"80%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"80%"
+      },
+      {
+        "name":"CSS",
+        "level":"70%"
+      },
+      {
+        "name":"HTML5",
+        "level":"70%"
+      },
+      {
+        "name":"Python",
+        "level":"60%"
+      },
+      {
+        "name":"PHP",
+        "level":"50%"
+      },
+      {
+        "name":"Java",
+        "level":"50%"
+      },
+      {
+        "name":"GoLang",
+        "level":"40%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"ReactJS - HPE GreenLake Central",
+        "category":"I helped develop HPE GreenLake Central from the ground up, using React, Redux, Sagas, and AWS.",
+        "image":"greenlake-react.jpg",
+        "url":"images/portfolio/greenlake.jpg"
+      },
+      {
+        "title":"JavaScript - HPE OneView",
+        "category":"HPE OneView's GUI front-end, in JQuery and JavaScript. Focused on the Enclosure Manager section of the code.",
+        "image":"oneview.jpg",
+        "url":"images/portfolio/oneview.jpg"
+      },
+      {
+        "title":"GoLang - HPE OneSphere",
+        "category":"Insights for HPE OneSphere. Internal logging library.",
+        "image":"onesphere.gif",
+        "url":"images/portfolio/onesphere.gif"
+      },
+      {
+        "title":"Java - HP ServiceComposer",
+        "category":"Helett-Packard WSDL Service Composer -- WSDL Schema editor developed in Java",
+        "image":"ServiceComposer.jpg",
+        "url":"images/portfolio/ServiceComposer.jpg"
+      },
+      {
+        "title":"Python - HP LabMan",
+        "category":"Updates drivers on hundreds of computers by crawling the web to find needed firmware, download it, and install it.",
+        "image":"labman.jpg",
+        "url":"images/portfolio/labman.jpg"
+      },
+      {
+        "title":"Perl & PHP - HP HealthMonitor",
+        "category":"Developed in Perl, PHP, and HTML",
+        "image":"healthMonitor.png",
+        "url":"images/portfolio/healthMonitor.png"
+      },
+      {
+        "title":"MS C++ - HP OpenStudio",
+        "category":"An add-on to Microsoft's Visual Studio enabling a developer to write code and debug for the HP-UX Unix platform.",
+        "image":"OpenStudio.jpg",
+        "url":"images/portfolio/OpenStudio.jpg"
+      },
+      {
+        "title":"MS C++ - Waterford and Microsoft's My Personal Tutor",
+        "category":"Joint venture with Microsoft and Waterford Institute.",
+        "image":"Waterford.jpg",
+        "url":"images/portfolio/Waterford.jpg"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"While at HP, I had the pleasure of working with Jesse as one of my direct reports. What first comes to mind when I think of Jesse is his good nature and the ease of working with him. Jesse is always positive in nature, eager to tackle new challenges, and very helpful to others. The quality of his work is excellent as a programmer. He understood how to gather requirements and develop applications that were well received by our customers. I also know him to be very proactive to learn new skill sets as well. He demonstrated initiative regularly by leading programming discussion groups and seeking to help others enhance their own skills. He exemplifies the concept of a team player. Jesse has an excellent character as well for he is honest as well as a hard worker. He has my recommendation 100%.",
+        "user":"Steve Teeples... Former manager"
+      }
+    ]
+  }
+}

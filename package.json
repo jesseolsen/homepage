@@ -1,24 +1,26 @@
 {
   "name": "homepage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "ajv": "^6.2.0",
-    "ajv-keywords": "^3.1.0",
-    "create-react-class": "^15.6.3",
-    "grommet": "^1.10.1",
-    "grommet-icons": "^0.15.0",
-    "grommet2": "https://github.com/grommet/grommet.git#NEXT-stable",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.0.0",
-    "prettier": "^1.11.0",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "1.1.1",
-    "react-transition-group": "^2.2.1",
-    "redux": "^3.7.2",
-    "styled-components": "^2.2.3"
+    "ajv": "^6.12.6",
+    "ajv-keywords": "^3.5.2",
+    "create-react-class": "^15.7.0",
+    "grommet": "^2.16.0",
+    "grommet-icons": "^4.5.0",
+    "husky": "^4.3.4",
+    "jquery": "^3.2.1",
+    "lint-staged": "^10.5.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-ga": "^2.3.5",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "redux": "^4.0.5",
+    "styled-components": "^5.2.1"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
   },
   "lint-staged": {
     "src/**/*.{js,jsx,json,css}": [
@@ -32,5 +34,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
