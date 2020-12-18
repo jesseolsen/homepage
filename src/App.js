@@ -1,39 +1,58 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import Hero from 'grommet/components/Hero';
-import { Clock } from 'grommet2';
-import { Grommet } from 'grommet2';
-
-import Container from './components/Logo';
-import Routing from './components/Routing';
+import ReactGA from 'react-ga';
+import $ from 'jquery';
+// import './App.css';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import About from './Components/About';
+import Resume from './Components/Resume';
+// import Contact from './Components/Contact';
+import Testimonials from './Components/Testimonials';
+import Portfolio from './Components/Portfolio';
 
 class App extends Component {
+
+  constructor(props){
+    super(props);
+    this.state = {
+      foo: 'bar',
+      resumeData: {}
+    };
+
+    ReactGA.initialize('UA-110570651-1');
+    ReactGA.pageview(window.location.pathname);
+
+  }
+
+  getResumeData(){
+    $.ajax({
+      url:'/resumeData.json',
+      dataType:'json',
+      cache: false,
+      success: function(data){
+        this.setState({resumeData: data});
+      }.bind(this),
+      error: function(xhr, status, err){
+        console.log(err);
+        alert(err);
+      }
+    });
+  }
+
+  componentDidMount(){
+    this.getResumeData();
+  }
+
   render() {
     return (
-      <Grommet>
-        <div className="navbar">
-          <a href="/">
-            <Clock
-              type="digital"
-              size="small"
-              hourLimit="12"
-              precision="minutes"
-            />
-          </a>
-          <a href="/">Home</a>
-          <a href="/languages">Languages</a>
-          <a href="/technologies">Technologies</a>
-          <a href="/about">About</a>
-        </div>
-        <Hero>
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h1 className="App-title">Jesse Olsen</h1>
-            <Container />
-          </header>
-        </Hero>
-        <Routing />
-      </Grommet>
+      <div className="App">
+        <Header data={this.state.resumeData.main}/>
+        <About data={this.state.resumeData.main}/>
+        <Resume data={this.state.resumeData.resume}/>
+        <Portfolio data={this.state.resumeData.portfolio}/>
+        <Testimonials data={this.state.resumeData.testimonials}/>
+        <Footer data={this.state.resumeData.main}/>
+      </div>
     );
   }
 }
