@@ -36,7 +36,7 @@ class Header extends Component {
             <h1 className="responsive-headline">I am {name}</h1>
             <h3>a <span>{occupation}</span>
             </h3>
-            <h3>looking for a <span>remote ReactJS</span> position</h3>
+            <h3>seeking a <span>remote position</span> to build agentic AI systems</h3>
             <hr />
             <ul className="social">
                {networks}

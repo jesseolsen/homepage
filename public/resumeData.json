@@ -1,18 +1,18 @@
 {
   "main": {
-    "name":"Jesse Olsen",
-    "occupation":"Senior Software Engineer",
-    "description":"I am currently looking for a remote ReactJS Senior Software Engineer position",
+    "name":"Jesse Dale Olsen",
+    "occupation":"Senior Software Engineer specializing in agentic AI & cybersecurity",
+    "description":"AI-focused engineer specializing in agentic AI development, AI-powered developer experience, and cybersecurity — seeking remote position ideally",
     "image":"profilepic.jpg",
-    "bio":"I am passionate about ReactJS development, working with React, Redux, Sagas, etc. I also have a lot of backend development experience with various languages including Python, GoLang, PHP, Java, C#, C++, etc.",
-    "contactmessage":"",
+    "bio":"AI isn't just a tool I use — it's the lens through which I build software. I specialize in agentic AI development and AI-powered developer experience: coding AI agents, creating MCP servers, and embedding Spec Driven Development into engineering workflows. I've built LLM-powered detection pipelines on AWS Bedrock, evaluated AI orchestration frameworks, created MCP servers, trained teams on Cursor and Claude Code, and pioneered AI development practices company-wide.",
+    "contactmessage":"Let's chat about how I can bring this passion and track record to your team.",
     "email": "",
     "phone": "",
     "address":{
-      "street":"(Seeking remote React position)",
-      "city":"Fort Collins",
-      "state":"Colorado",
-      "zip": "80525"
+      "street":"",
+      "city":"Spanish Fork",
+      "state":"UT",
+      "zip": "84660"
     },
     "website": "http://jesse.olsen.org",
     "resumedownload":"",
@@ -46,81 +46,75 @@
     ],
     "work":[
       {
-        "company":"Procore (Construction SaaS), Spanish Fork, Utah (remote)",
-        "title":"Software Engineer, Procore Hubs",
-        "years":"2024 - Present",
-        "description":"Architected and documented new hubs/dashboard/widget sorting/filtering. React/TypeScript/REST – Implement hubs. Led AI dev beta programs with GitHub Copilot, Cursor, and Windsurf"
+        "company":"Booz Allen Hamilton (Cyber Security), Spanish Fork, Utah (remote)",
+        "title":"Product Software Engineer, Vellox AI Cybersecurity Products",
+        "years":"2025 - 2026",
+        "description":"Researched and evaluated agentic AI orchestration frameworks (AWS Bedrock Agents, Strands) for cybersecurity AI agent pipelines. Built Python CLI streamlining AI developer workflows with Bedrock LLM chat, EC2/SAM deployment, and Jira tracking. Implemented GitHub App and OAuth 2.0 integrations to deliver AI-generated Sigma detection rules to customer SIEM pipelines. Hardened AWS serverless platform, resolving 9+ security vulnerabilities. Established CI/CD testing infrastructure with pytest, Vitest, Cypress, and accessibility scanning."
       },
       {
         "company":"Procore (Construction SaaS), Spanish Fork, Utah (remote)",
-        "title":"Software Engineer, Procore Construction Network Freemium",
-        "years":"2023 - 2024",
-        "description":"Released Freemium accounts for Procore Construction Network Users"
-      },
-      {
-        "company":"Procore (Construction SaaS), Spanish Fork, Utah (remote)",
-        "title":"Software Engineer, Procore Construction Network",
-        "years":"2021 - 2023",
-        "description":"NextJS/GraphQL – POC to Productization. >200k profiles, >136k claimed"
+        "title":"Staff Software Engineer, Procore Hubs / Construction Network",
+        "years":"2021 - 2025",
+        "description":"Architected and documented new hubs/dashboard/widget sorting/filtering. React/TypeScript/REST. Transitioned Procore Construction Network POC to product with 200k+ profiles, 136k+ claimed. Released Freemium accounts for network users. Pioneered AI development practices company-wide — beta-tested Cursor, GitHub Copilot, Windsurf; created 'AI Context' training course on Uplimit; became lead contributor to internal ai-coding repo of company-wide prompts and Cursor rules. Built MCP servers (Jira, browser console logs), shared training videos on voice coding and rule generation, built LLM evaluation pipeline using BLEU, ROUGE, METEOR metrics."
       },
       {
         "company":"Hewlett Packard Enterprise, Fort Collins, CO",
-        "title":"Software Engineer",
-        "years":"2005 - Present",
-        "description":"HPE GreenLake Central Lab, OneSphere, OneView. ReactJS, Redux, Sagas, GoLang, Python, JavaScript, and Java."
+        "title":"Senior Software Engineer",
+        "years":"2005 - 2021",
+        "description":"HPE GreenLake Central Lab: Enabled everything-as-a-service, React integrations, AWS (Terraform, S3, CloudFront, serverless, lambdas), security enhancements. HPE OneSphere: Go logging library, Elasticsearch config, mentoring. HPE Helion OpenStack: Centralized logging, plug-in development. HP OneView, Blade Enclosure Manager: Enhanced UI, Python automation API, Java back-end. HP Storage, HP Command View: Lab tools, web service automation frameworks."
       },
       {
-        "company":"Hewlett Packard Enterprise, San Diego, CA",
-        "title":"Software Engineer",
+        "company":"Hewlett-Packard, San Diego, CA",
+        "title":"Software Engineer, All-In-One Software Integration and Release Team",
         "years":"2002 - 2005",
-        "description":"All-In-One Software Integration and Release Team, C#, Python"
+        "description":"Developed C# architecture for dependency-based builds. Improved team processes and coding standards. Managed remote team collaboration."
       },
       {
-        "company":"Hewlett Packard Enterprise, Fort Collins, CO",
+        "company":"Hewlett-Packard, Fort Collins, CO",
         "title":"Software Engineer",
         "years":"1998 - 2002",
-        "description":"Web Services Tools, OpenStudio, Ignite-UX"
+        "description":"Web Services Tools (led lint tool development, reduced dev time by 50%), OpenStudio (enhanced C/C++ Visual Studio plug-in), Ignite-UX Installer (disaster recovery system, tape-backup product maintenance)"
       },
       {
         "company":"Waterford Institute, Provo, UT",
-        "title":"Software Engineer",
+        "title":"Software Engineer, Multimedia Educational Software",
         "years":"1994 - 1998",
-        "description":"Multi-media educational software, C++"
+        "description":"Developed multimedia educational software. Pioneered projects that grew into patent submissions."
       }
     ],
-    "skillmessage":"These are some of the skills I have acquired over the years",
+    "skillmessage":"AI specialist with deep expertise in agentic AI, LLM evaluation, cloud infrastructure, and full-stack development",
     "skills":[
       {
-        "name":"ReactJs",
-        "level":"80%"
+        "name":"Agentic AI & LLM Development",
+        "level":"95%"
       },
       {
-        "name":"JavaScript",
-        "level":"80%"
-      },
-      {
-        "name":"CSS",
-        "level":"70%"
-      },
-      {
-        "name":"HTML5",
-        "level":"70%"
+        "name":"AWS & Cloud Architecture",
+        "level":"90%"
       },
       {
         "name":"Python",
-        "level":"60%"
+        "level":"90%"
       },
       {
-        "name":"PHP",
-        "level":"50%"
+        "name":"TypeScript / React",
+        "level":"85%"
       },
       {
-        "name":"Java",
-        "level":"50%"
+        "name":"Cybersecurity & DevSecOps",
+        "level":"80%"
       },
       {
-        "name":"GoLang",
-        "level":"40%"
+        "name":"MCP Servers & Dev Tools",
+        "level":"85%"
+      },
+      {
+        "name":"JavaScript / Go / Java",
+        "level":"75%"
+      },
+      {
+        "name":"SQL / Databases",
+        "level":"75%"
       }
     ]
   },
