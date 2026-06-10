@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Jesse Dale Olsen",
-    "occupation":"Senior Software Engineer specializing in agentic AI & cybersecurity",
+    "occupation":"Senior Software Engineer specializing in agentic AI",
     "description":"AI-focused engineer specializing in agentic AI development, AI-powered developer experience, and cybersecurity — seeking remote position ideally",
     "image":"profilepic.jpg",
     "bio":"AI isn't just a tool I use — it's the lens through which I build software. I specialize in agentic AI development and AI-powered developer experience: coding AI agents, creating MCP servers, and embedding Spec Driven Development into engineering workflows. I've built LLM-powered detection pipelines on AWS Bedrock, evaluated AI orchestration frameworks, created MCP servers, trained teams on Cursor and Claude Code, and pioneered AI development practices company-wide.",

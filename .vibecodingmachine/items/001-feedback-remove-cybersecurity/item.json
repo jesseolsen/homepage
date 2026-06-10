@@ -1,0 +1,32 @@
+{
+  "id": "FB-1781130484029-fv9bxfe78",
+  "type": "feedback",
+  "title": "Remove \"& cybersecurity\"",
+  "text": "",
+  "category": "improvement",
+  "priority": "medium",
+  "email": "jesse.d.olsen@gmail.com",
+  "hostname": "Jesses-MacBook-Air.local",
+  "enabled": true,
+  "humanApproved": null,
+  "implementedByAuto": true,
+  "rejectionCount": 0,
+  "needsMoreInfo": false,
+  "verificationSummary": "",
+  "conversation": [],
+  "createdAt": "2026-06-10T22:28:04.029Z",
+  "updatedAt": "2026-06-10T22:30:09.017Z",
+  "completedAt": "2026-06-10T22:30:09.017Z",
+  "pastedImages": [
+    {
+      "fileName": "pasted-1781130484031-p66lwo2.png",
+      "originalName": "image.png"
+    },
+    {
+      "fileName": "pasted-1781130578186-l7xbp3f.png",
+      "originalName": "verify-1781130578182.png",
+      "section": "Verify Images"
+    }
+  ],
+  "hasScreenshot": false
+}
