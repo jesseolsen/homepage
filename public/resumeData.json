@@ -74,12 +74,6 @@
         "title":"Software Engineer",
         "years":"1998 - 2002",
         "description":"Web Services Tools (led lint tool development, reduced dev time by 50%), OpenStudio (enhanced C/C++ Visual Studio plug-in), Ignite-UX Installer (disaster recovery system, tape-backup product maintenance)"
-      },
-      {
-        "company":"Waterford Institute, Provo, UT",
-        "title":"Software Engineer, Multimedia Educational Software",
-        "years":"1994 - 1998",
-        "description":"Developed multimedia educational software. Pioneered projects that grew into patent submissions."
       }
     ],
     "skillmessage":"AI specialist with deep expertise in agentic AI, LLM evaluation, cloud infrastructure, and full-stack development",
