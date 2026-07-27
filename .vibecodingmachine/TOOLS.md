@@ -1,0 +1,183 @@
+# Agent Tools Reference
+
+**Purpose**: Guide to tools available for AI agents working on this project.
+
+**Location**: `.vibecodingmachine/TOOLS.md`
+
+---
+
+## Table of Contents
+
+1. [VCM Scripts](#vcm-scripts) - Standard launch and deploy scripts
+2. [CLIs](#clis) - Command-line interfaces
+3. [Screenshots](#screenshots) - Screen capture and analysis
+4. [Automation](#automation) - OS-level automation (Mac/Windows)
+
+---
+
+## VCM Scripts
+
+Standard scripts provided by VCM for launching and deploying the project:
+
+| Script | Mac/Linux | Windows |
+|--------|-----------|---------|
+| Launch dev server | `.vibecodingmachine/scripts/launch.sh` | `.vibecodingmachine/scripts/launch.ps1` |
+| Deploy to production | `.vibecodingmachine/scripts/deploy.sh` | `.vibecodingmachine/scripts/deploy.ps1` |
+
+### Starting the dev server
+
+```bash
+# Mac/Linux
+bash .vibecodingmachine/scripts/launch.sh
+```
+
+```powershell
+# Windows
+& .vibecodingmachine\scripts\launch.ps1
+```
+
+The dev server URL is configured in `.vibecodingmachine/config.json` → `launch.url` (default: `http://localhost:8000`).
+
+**If the launch script fails**: update the script or `launch.url` in `config.json` to match your project's actual command and port, then verify it starts cleanly.
+
+### Deploying
+
+```bash
+# Mac/Linux
+bash .vibecodingmachine/scripts/deploy.sh
+```
+
+```powershell
+# Windows
+& .vibecodingmachine\scripts\deploy.ps1
+```
+
+Configure your deployment target by editing the deploy script for this project.
+
+---
+
+## CLIs
+
+### Safe Command Runner
+
+**Location**: `.agents/safe-command-runner.js` (if present)
+
+Use this utility to ensure all commands have timeout protection:
+
+```javascript
+const { runSafeCommand } = require('./.agents/safe-command-runner');
+runSafeCommand('npm install');
+```
+
+**Default Timeouts Applied:**
+- `ps`, `grep`, `ls`, `cat`: 5s
+- `kill`, `pkill`: 10s
+- `npm`, `node`: 60s
+- `git`: 30s
+- `find`: 10s
+
+---
+
+## Screenshots
+
+Capturing and analyzing screen content for verification and debugging.
+
+### Screenshot Storage Location
+
+**All screenshots should be stored in:** `.vibecodingmachine/temp/screenshots/`
+
+### 📸 Headless Screenshots — No Focus Stealing
+
+**NEVER use `screencapture -x` or `osascript activate`.** Those commands steal focus. All screenshots MUST be taken headlessly via Playwright.
+
+#### External browser / web page (Playwright headless launch)
+
+**ALWAYS launch headless** (`chromium.launch({ headless: true })`):
+
+```bash
+node -e "
+const { chromium } = require('playwright');
+(async () => {
+  const browser = await chromium.launch({ headless: true });
+  const page = await browser.newPage();
+  await page.setViewportSize({ width: 1280, height: 800 });
+  await page.goto('http://localhost:3000', { waitUntil: 'networkidle', timeout: 15000 });
+  await page.waitForTimeout(1000);
+  await page.screenshot({ path: '.vibecodingmachine/temp/screenshots/verification.png' });
+  await browser.close();
+})().catch(e => { console.error(e.stack || String(e)); process.exit(1); });
+"
+```
+
+### Verification Workflow
+
+1. **Take headless screenshot** via Playwright
+2. **Read the image** with the Read tool — look at what is ACTUALLY visible
+3. **Analyze the screenshot** against the Acceptance Criteria
+4. **If not fixed, iterate** — fix the code, overwrite the screenshot file, recapture
+
+### Required Verification Format
+
+After taking ANY screenshot, agents MUST:
+
+1. **READ the image file** using the Read tool
+2. **ACTUALLY LOOK at the image** — do not skip this step
+3. **Describe what you ACTUALLY see** — be specific and accurate
+
+```markdown
+## 🔍 SCREENSHOT VERIFICATION
+
+**Expected:** [What should be visible if fix works]
+**Actual:** [What is ACTUALLY visible — be specific]
+**Analysis:** [Describe elements you see]
+**Status:** ✅ WORKING / ❌ NOT WORKING
+```
+
+### FORBIDDEN Practices
+
+- ❌ Claiming success without reading the image file
+- ❌ Assuming the fix works based on code changes only
+- ❌ Skipping visual analysis step
+- ❌ Describing expected behavior instead of actual visual state
+
+---
+
+## Automation
+
+### macOS Automation
+
+```bash
+# Activate an application
+osascript -e 'tell application "AppName" to activate'
+
+# Simulate keystrokes
+osascript -e 'tell application "System Events" to keystroke "a"'
+```
+
+### Windows Automation
+
+```powershell
+# Send keys to application
+$wshell = New-Object -ComObject wscript.shell
+$wshell.AppActivate("Application Name")
+$wshell.SendKeys("Hello World")
+```
+
+### Cross-Platform Considerations
+
+1. **Check OS first**: `uname -s` returns "Darwin" for Mac, "Linux" for Linux
+2. Use appropriate tool for platform (osascript on Mac, PowerShell on Windows)
+3. Always include delays — apps need time to launch
+4. Include error handling for when apps aren't running
+
+---
+
+## Additional Resources
+
+- **AGENTS.md** (if present) — Agent guidelines
+- **INSTRUCTIONS.md** — Workflow processes and specifications
+- **.vibecodingmachine/REQUIREMENTS.md** — Project requirements and status
+
+---
+
+**Auto-generated by VibeCodingMachine**

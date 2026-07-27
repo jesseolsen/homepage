@@ -118,58 +118,6 @@
       }
     ]
   },
-  "portfolio":{
-    "projects": [
-      {
-        "title":"ReactJS - HPE GreenLake Central",
-        "category":"I helped develop HPE GreenLake Central from the ground up, using React, Redux, Sagas, and AWS.",
-        "image":"greenlake-react.jpg",
-        "url":"images/portfolio/greenlake.jpg"
-      },
-      {
-        "title":"JavaScript - HPE OneView",
-        "category":"HPE OneView's GUI front-end, in JQuery and JavaScript. Focused on the Enclosure Manager section of the code.",
-        "image":"oneview.jpg",
-        "url":"images/portfolio/oneview.jpg"
-      },
-      {
-        "title":"GoLang - HPE OneSphere",
-        "category":"Insights for HPE OneSphere. Internal logging library.",
-        "image":"onesphere.gif",
-        "url":"images/portfolio/onesphere.gif"
-      },
-      {
-        "title":"Java - HP ServiceComposer",
-        "category":"Helett-Packard WSDL Service Composer -- WSDL Schema editor developed in Java",
-        "image":"ServiceComposer.jpg",
-        "url":"images/portfolio/ServiceComposer.jpg"
-      },
-      {
-        "title":"Python - HP LabMan",
-        "category":"Updates drivers on hundreds of computers by crawling the web to find needed firmware, download it, and install it.",
-        "image":"labman.jpg",
-        "url":"images/portfolio/labman.jpg"
-      },
-      {
-        "title":"Perl & PHP - HP HealthMonitor",
-        "category":"Developed in Perl, PHP, and HTML",
-        "image":"healthMonitor.png",
-        "url":"images/portfolio/healthMonitor.png"
-      },
-      {
-        "title":"MS C++ - HP OpenStudio",
-        "category":"An add-on to Microsoft's Visual Studio enabling a developer to write code and debug for the HP-UX Unix platform.",
-        "image":"OpenStudio.jpg",
-        "url":"images/portfolio/OpenStudio.jpg"
-      },
-      {
-        "title":"MS C++ - Waterford and Microsoft's My Personal Tutor",
-        "category":"Joint venture with Microsoft and Waterford Institute.",
-        "image":"Waterford.jpg",
-        "url":"images/portfolio/Waterford.jpg"
-      }
-    ]
-  },
   "testimonials":{
     "testimonials":[
       {
