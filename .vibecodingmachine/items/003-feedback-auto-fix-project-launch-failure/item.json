@@ -1,0 +1,21 @@
+{
+  "id": "FB-1788137715495-64kzoieto",
+  "type": "feedback",
+  "title": "[Auto] Fix project launch failure",
+  "text": "The project failed to launch. Error:\nService did not come up at http://localhost:8000 within 30s. Recent output: opment server...\n\nCompiled successfully!\n\nYou can now view homepage in the browser.\n\n  Local:            http://localhost:3000\n  On Your Network:  http://192.168.1.90:3000\n\nNote that the development build is not optimized.\nTo create a production build, use yarn build.\n\nwebpack compiled successfully\n\n\nSignature: launch-failure:Service did not come up at http://localhost:8000 within 30s. Recent output: opme\n\nAvailable scripts:\n{\n  \"precommit\": \"lint-staged\",\n  \"start\": \"react-scripts start\",\n  \"build\": \"react-scripts build\",\n  \"test\": \"react-scripts test --env=jsdom\",\n  \"eject\": \"react-scripts eject\",\n  \"deploy\": \"bash deploy.sh\",\n  \"deploy:node\": \"node deploy.js\"\n}\n\nPlease diagnose and fix the launch issue. Common causes:\n- Missing runtime (python, node, etc.) — install it or update the script\n- Wrong start command — update package.json scripts to use a compatible alternative\n- Missing npm packages — run npm install\n- Port conflict — change the port in the start script\nAfter fixing, verify the project starts correctly.",
+  "category": "defect",
+  "priority": "high",
+  "email": "auto-launch-fixer@vibecodingmachine.local",
+  "hostname": "Jesses-MacBook-Air.local",
+  "enabled": true,
+  "humanApproved": null,
+  "implementedByAuto": false,
+  "rejectionCount": 0,
+  "needsMoreInfo": false,
+  "verificationSummary": "",
+  "conversation": [],
+  "createdAt": "2026-08-31T00:55:15.495Z",
+  "updatedAt": "2026-08-31T00:55:15.495Z",
+  "completedAt": null,
+  "hasScreenshot": false
+}

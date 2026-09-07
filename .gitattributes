@@ -1,0 +1,6 @@
+.vibecodingmachine/items/*/item.json merge=vcm-items
+.vibecodingmachine/items/.order merge=vcm-items
+.vibecodingmachine/defect-history.json merge=vcm-items
+.vibecodingmachine/milestone-history.json merge=vcm-items
+.vibecodingmachine/milestones.json merge=vcm-items
+.vibecodingmachine/features.json merge=vcm-items

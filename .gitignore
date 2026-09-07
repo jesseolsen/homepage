@@ -21,3 +21,11 @@ yarn-debug.log*
 yarn-error.log*
 
 .eslintcache
+
+# VCM: machine-local scratch files (not shared across machines)
+.vibecodingmachine/MILESTONE_EVAL.json
+.vibecodingmachine/REQUIREMENTS.md
+.vibecodingmachine/REQUIREMENTS-*.md
+.vibecodingmachine/config.local.json
+
+.vibecodingmachine/commit-hold.json

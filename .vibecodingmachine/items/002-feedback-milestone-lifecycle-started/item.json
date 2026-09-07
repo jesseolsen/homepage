@@ -1,0 +1,22 @@
+{
+  "id": "FB-1786192719495-p9gnmtqsa",
+  "type": "feedback",
+  "title": "Milestone (lifecycle): Started",
+  "text": "Reach the \"Started\" project lifecycle stage.\n\nThe project kicked off — repo created and work began.\n\nWhen you believe this is genuinely done, report completion as normal (STATUS: DONE / COMPLETION: 100%) — a human will review and either approve it (marking the stage reached) or reject it with what's still missing.",
+  "category": "improvement",
+  "priority": "medium",
+  "email": "",
+  "hostname": "Jesses-MacBook-Air.local",
+  "enabled": true,
+  "humanApproved": null,
+  "implementedByAuto": false,
+  "rejectionCount": 0,
+  "needsMoreInfo": false,
+  "verificationSummary": "",
+  "conversation": [],
+  "createdAt": "2026-08-08T12:38:39.495Z",
+  "updatedAt": "2026-08-08T12:38:39.495Z",
+  "completedAt": null,
+  "sourceLifecycleStageId": "start",
+  "hasScreenshot": false
+}

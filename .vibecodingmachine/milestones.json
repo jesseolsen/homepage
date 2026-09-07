@@ -1,0 +1,209 @@
+{
+  "milestones": [
+    {
+      "id": "lifecycle-start",
+      "type": "lifecycle-stage",
+      "stageId": "start",
+      "label": "Started",
+      "description": "The project kicked off — repo created and work began.",
+      "order": 0,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-prototype",
+      "type": "lifecycle-stage",
+      "stageId": "prototype",
+      "label": "Initial Prototype",
+      "description": "A working prototype exists, ready for early testing.",
+      "order": 4,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-tests-created",
+      "type": "lifecycle-stage",
+      "stageId": "tests-created",
+      "label": "100% Code Test Coverage",
+      "description": "Automated tests cover 100% of core functionality, as tracked by the Test Coverage metric.",
+      "order": 5,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-staging-live",
+      "type": "lifecycle-stage",
+      "stageId": "staging-live",
+      "label": "Live on Staging",
+      "description": "The product is deployed and reachable on a staging environment.",
+      "order": 12,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-production-live",
+      "type": "lifecycle-stage",
+      "stageId": "production-live",
+      "label": "Live in Production",
+      "description": "The product is deployed and reachable in production.",
+      "order": 13,
+      "reachedAt": "2026-08-10T18:19:17.462Z",
+      "status": "reached",
+      "note": "Auto-detected — a production branch (\"origin/main\"/\"origin/master\") already exists with real commits."
+    },
+    {
+      "id": "lifecycle-beta",
+      "type": "lifecycle-stage",
+      "stageId": "beta",
+      "label": "Beta",
+      "description": "The product is live for a limited/beta audience, gathering real-world feedback before a full public push.",
+      "order": 14,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-exhaustive-testing",
+      "type": "lifecycle-stage",
+      "stageId": "exhaustive-testing",
+      "label": "Exhaustively Tested",
+      "description": "Every catalogued feature has both a unit test and an end-to-end browser test — no feature is taken on trust.",
+      "order": 6,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-marketing-ready",
+      "type": "lifecycle-stage",
+      "stageId": "marketing-ready",
+      "label": "Ready to Market",
+      "description": "The product is solid enough to actively promote — ready for posts, ads, and outreach.",
+      "order": 15,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "user-feedback",
+      "type": "user-feedback",
+      "direction": "at-most",
+      "target": 0,
+      "targetReasoning": "Policy: every piece of user-submitted feedback should eventually be addressed — the target is fixed at zero outstanding items, not AI-proposed.",
+      "progress": 2,
+      "progressBreakdown": {
+        "items": [
+          {
+            "id": "FB-1788137925519-4ov2cjalo",
+            "title": "Add RegScale to Work section\nPrincipal Software Engineer - AI\nStreamline your governance, risk, and compliance processes with shift-left security and compliance as code. RegScale’s Continuous Controls Monitoring (CCM) platform delivers constant audit-readiness and continuously self-updating paperwork. Helped use advanced AI development tooling to create AI enhanced features in the RegScale product.\n\n---\nSubmitted from the Chrome extension\nURL: http://localhost:3000/\nPage: Jesse Olsen\n\nCaptured page content — the rendered page text:\n\"\"\"\nHOMEABOUTRESUMEPORTFOLIOTESTIMONIALS\nI am Jesse Dale Olsen\na Senior Software Engineer specializing in agentic AI\nseeking a remote position to build agentic AI systems\n\nAbout Me\n\nAI isn't just a tool I use — it's the lens through which I build software. I specialize in agentic AI development and AI-powered developer experience: coding AI agents, creating MCP servers, and embedding Spec Driven Development into engineering workflows. I've built LLM-powered detection pipelines on AWS Bedrock, evaluated AI orchestration frameworks, created MCP servers, trained teams on Cursor and Claude Code, and pioneered AI development practices company-wide.\n\nContact Details\n\nJesse Dale Olsen\n\nSpanish Fork UT, 84660\n\n\n\nWORK\nBooz Allen Hamilton (Cyber Security), Spanish Fork, Utah (remote)\n\nProduct Software Engineer, Vellox AI Cybersecurity Products• 2025 - 2026\n\nResearched and evaluated agentic AI orchestration frameworks (AWS Bedrock Agents, Strands) for cybersecurity AI agent pipelines. Built Python CLI streamlining AI developer workflows with Bedrock LLM chat, EC2/SAM deployment, and Jira tracking. Implemented GitHub App and OAuth 2.0 integrations to deliver AI-generated Sigma detection rules to customer SIEM pipelines. Hardened AWS serverless platform, resolving 9+ security vulnerabilities. Established CI/CD testing infrastructure with pytest, Vitest, Cypress, and accessibility scanning.\n\nProcore (Construction SaaS), Spanish Fork, Utah (remote)\n\nStaff Software Engineer, Procore Hubs / Construction Network• 2021 - 2025\n\nArchitected and documented new hubs/dashboard/widget sorting/filtering. React/TypeScript/REST. Transitioned Procore Construction Network POC to product with 200k+ profiles, 136k+ claimed. Released Freemium accounts for network users. Pioneered AI development practices company-wide — beta-tested Cursor, GitHub Copilot, Windsurf; created 'AI Context' training course on Uplimit; became lead contributor to internal ai-coding repo of company-wide prompts and Cursor rules. Built MCP servers (Jira, browser console logs), shared training videos on voice coding and rule generation, built LLM evaluation pipeline using BLEU, ROUGE, METEOR metrics.\n\nHewlett Packard Enterprise, Fort Collins, CO\n\nSenior Software Engineer• 2005 - 2021\n\nHPE GreenLake Central Lab: Enabled everything-as-a-service, React integrations, AWS (Terraform, S3, CloudFront, serverless, lambdas), security enhancements. HPE OneSphere: Go logging library, Elasticsearch config, mentoring. HPE Helion OpenStack: Centralized logging, plug-in development. HP OneView, Blade Enclosure Manager: Enhanced UI, Python automation API, Java back-end. HP Storage, HP Command View: Lab tools, web service automation frameworks.\n\nHewlett-Packard, San Diego, CA\n\nSoftware Engineer, All-In-One Software Integration and Release Team• 2002 - 2005\n\nDeveloped C# architecture for dependency-based builds. Improved team processes and coding standards. Managed remote team collaboration.\n\nHewlett-Packard, Fort Collins, CO\n\nSoftware Engineer• 1998 - 2002\n\nWeb Services Tools (led lint tool development, reduced dev time by 50%), OpenStudio (enhanced C/C++ Visual Studio plug-in), Ignite-UX Installer (disaster recovery system, tape-backup product maintenance)\n\nEDUCATION\nMasters in Computer Science\n\nBrigham Young University, Provo •April 1998\n\nThesis: Application Independent UNDO at the Java Byte-code Level\n\nBachelors in Computer Science\n\nBrigham Young University, Provo •April 1996\n\nData structures, databases, operating systems, compilers, oh my!\n\nAI PROJECTS & REPOSITORIES\n\nProduction-grade implementations of agentic AI, LLM application architecture, and developer automation.\n\nLangGraph - Multi-Agent AI Systems\nPython\nLangGraph\nLangChain\nMulti-Agent Orchestration\nView on GitHub →\n\nBuilding resilient agentic AI systems with LangGraph for complex workflows, state management, and multi-agent orchestration.\n\nVisual representation of the multi-agent routing & synthesis graph.\n\nGraph Architecture & Flow\nSupervisor Routing: A central classify router node evaluates the user's intent.\nSub-Agent Dispatch: Dispatches queries to specialized subgraphs (billing, general, technology) or escapes directly to human/nonbanking handlers.\nStateful Execution Loops: Sub-agents execute self-correction loops utilizing code execution, DB queries, and web-search tools.\nResponse Synthesis: The synthesize node aggregates execution logs from all child nodes to generate a comprehensive, unified final response.\nResume RAG & MCP Server\nPython\nFastAPI\nChrome Extensions\nMCP Server\nVector DB\nRAG\nView on GitHub →\n\nModel Context Protocol server implementing RAG (Retrieval-Augmented Generation) for intelligent resume parsing, job application tracking, and automated form-filling.\n\nFeatures & Integration\nChrome Extension UI: Select resume profiles, trigger auto-filling on top job portals (Workday, Greenhouse, etc.), and capture submitted form answers.\nMCP Toolset: Exposes 11 specialized tools to LLM clients (like Claude Desktop) for parsing resumes, querying vector stores, updating status trackers, and generating cover letters.\nRAG backend: Searches vector DB using embeddings to match custom essay questions in application forms with precise parts of the applicant's experience.\nAutomated Job Tracking: Syncs application details, company Glassdoor ratings, application timelines, and recruiter emails to a local database.\nJob Search AI Agent\nPyTorch\nAnthropic API\nPydantic\nPrompt Caching\nLLM Streaming\nView on GitHub →\n\nAn advanced career suite for automated job posting analysis and resume enhancement, demonstrating specialized deep learning and pipeline orchestration.\n\n01-PARSER\nClaude API Parser\n\nExtracts skills, seniority level, salary, and red flags from raw job descriptions. Built using Anthropic tool use, Pydantic validation, prompt caching (for massive speed and cost savings), and real-time streaming.\n\n02-AGENT\nLangGraph Matcher\n\nStateGraph workflow that aligns a candidate's resume with parsed job descriptions. Creates cover letter talking points, interview questions, and prep checklists with persistent checkpoint state tracking.\n\n03-CLASSIFIER\nPyTorch Segmenter\n\nCustom neural network classifier built from scratch using PyTorch. Tokenizes resume text, processes embeddings, and runs custom training loops to segment resumes into structured blocks like Experience, Education, and Skills.\n\nLive Demo: Infrastructure Admin Agent\n\nExperience an interactive simulation of an agentic fleet administration chatbot. Try sending commands using the quick-action buttons below or by typing custom inputs.\n\nFleet Dashboard (Live State)\nWeb Server 01Application Node\nOnline\nOS:Ubuntu 20.04 LTS\nFirmware:v1.4.2\nDatabase Server 02PostgreSQL Cluster\nOnline\nOS:RHEL 8.4\nFirmware:v2.1.0\nCache Cluster 03Redis Cache Node\nOnline\nOS:Ubuntu 22.04 LTS\nFirmware:v1.1.1\nagent_admin_console.sh\nCONNECTED\n🤖 Server Admin Agent: Hello! I am connected to your local server fleet. Try clicking a quick command below or type your own instructions.\n06:54 PM\n$ list_servers\n$ update_os web-server-01\n$ upgrade_fw db-server-02\nEXECUTE\nMore AI Work\n\nAWS Bedrock LLM Pipelines • MCP Server Development • AI Developer Experience Tools • LLM Evaluation Frameworks • Agentic AI Orchestration\n\nView All Repositories on GitHub →\n\nWhile at HP, I had the pleasure of working with Jesse as one of my direct reports. What first comes to mind when I think of Jesse is his good nature and the ease of working with him. Jesse is always positive in nature, eager to tackle new challenges, and very helpful to others. The quality of his work is excellent as a programmer. He understood how to gather requirements and develop applications that were well received by our customers. I also know him to be very proactive to learn new skill sets as well. He demonstrated initiative regularly by leading programming discussion groups and seeking to help others enhance their own skills. He exemplifies the concept of a team player. Jesse has an excellent character as well for he is honest as well as a hard worker. He has my recommendation 100%.\n\nSteve Teeples... Former manager\nThis app is licensed under the MIT License.\n✕\nVibeCodingMachine\nHOMEPAGE PROJECT\n🔄\n×\n📣 Feedback\n🧪 Testing\nProject:\nChoose a project…\njobrequester\nhomepage\nvibecodingmachine\nCategory:\n💥 Defect\n✨ Feature Request\n💡 Improvement\n💬 Other\n📝 Requirement\n📋 Specification\nTitle *:\nDescription:\n📸 Capture Screenshot\n Remove Screenshot\nCancel\nSubmitting...\n\"\"\""
+          },
+          {
+            "id": "FB-1788137715495-64kzoieto",
+            "title": "The project failed to launch. Error:\nService did not come up at http://localhost:8000 within 30s. Recent output: opment server...\n\nCompiled successfully!\n\nYou can now view homepage in the browser.\n\n  Local:            http://localhost:3000\n  On Your Network:  http://192.168.1.90:3000\n\nNote that the development build is not optimized.\nTo create a production build, use yarn build.\n\nwebpack compiled successfully\n\n\nSignature: launch-failure:Service did not come up at http://localhost:8000 within 30s. Recent output: opme\n\nAvailable scripts:\n{\n  \"precommit\": \"lint-staged\",\n  \"start\": \"react-scripts start\",\n  \"build\": \"react-scripts build\",\n  \"test\": \"react-scripts test --env=jsdom\",\n  \"eject\": \"react-scripts eject\",\n  \"deploy\": \"bash deploy.sh\",\n  \"deploy:node\": \"node deploy.js\"\n}\n\nPlease diagnose and fix the launch issue. Common causes:\n- Missing runtime (python, node, etc.) — install it or update the script\n- Wrong start command — update package.json scripts to use a compatible alternative\n- Missing npm packages — run npm install\n- Port conflict — change the port in the start script\nAfter fixing, verify the project starts correctly."
+          }
+        ]
+      },
+      "status": "needs-attention",
+      "nextActions": [
+        "Resolve \"Add RegScale to Work section\nPrincipal Software Engineer - AI\nStreamline your governance, risk, and compliance processes with shift-left security and compliance as code. RegScale’s Continuous Controls Monitoring (CCM) platform delivers constant audit-readiness and continuously self-updating paperwork. Helped use advanced AI development tooling to create AI enhanced features in the RegScale product.\n\n---\nSubmitted from the Chrome extension\nURL: http://localhost:3000/\nPage: Jesse Olsen\n\nCaptured page content — the rendered page text:\n\"\"\"\nHOMEABOUTRESUMEPORTFOLIOTESTIMONIALS\nI am Jesse Dale Olsen\na Senior Software Engineer specializing in agentic AI\nseeking a remote position to build agentic AI systems\n\nAbout Me\n\nAI isn't just a tool I use — it's the lens through which I build software. I specialize in agentic AI development and AI-powered developer experience: coding AI agents, creating MCP servers, and embedding Spec Driven Development into engineering workflows. I've built LLM-powered detection pipelines on AWS Bedrock, evaluated AI orchestration frameworks, created MCP servers, trained teams on Cursor and Claude Code, and pioneered AI development practices company-wide.\n\nContact Details\n\nJesse Dale Olsen\n\nSpanish Fork UT, 84660\n\n\n\nWORK\nBooz Allen Hamilton (Cyber Security), Spanish Fork, Utah (remote)\n\nProduct Software Engineer, Vellox AI Cybersecurity Products• 2025 - 2026\n\nResearched and evaluated agentic AI orchestration frameworks (AWS Bedrock Agents, Strands) for cybersecurity AI agent pipelines. Built Python CLI streamlining AI developer workflows with Bedrock LLM chat, EC2/SAM deployment, and Jira tracking. Implemented GitHub App and OAuth 2.0 integrations to deliver AI-generated Sigma detection rules to customer SIEM pipelines. Hardened AWS serverless platform, resolving 9+ security vulnerabilities. Established CI/CD testing infrastructure with pytest, Vitest, Cypress, and accessibility scanning.\n\nProcore (Construction SaaS), Spanish Fork, Utah (remote)\n\nStaff Software Engineer, Procore Hubs / Construction Network• 2021 - 2025\n\nArchitected and documented new hubs/dashboard/widget sorting/filtering. React/TypeScript/REST. Transitioned Procore Construction Network POC to product with 200k+ profiles, 136k+ claimed. Released Freemium accounts for network users. Pioneered AI development practices company-wide — beta-tested Cursor, GitHub Copilot, Windsurf; created 'AI Context' training course on Uplimit; became lead contributor to internal ai-coding repo of company-wide prompts and Cursor rules. Built MCP servers (Jira, browser console logs), shared training videos on voice coding and rule generation, built LLM evaluation pipeline using BLEU, ROUGE, METEOR metrics.\n\nHewlett Packard Enterprise, Fort Collins, CO\n\nSenior Software Engineer• 2005 - 2021\n\nHPE GreenLake Central Lab: Enabled everything-as-a-service, React integrations, AWS (Terraform, S3, CloudFront, serverless, lambdas), security enhancements. HPE OneSphere: Go logging library, Elasticsearch config, mentoring. HPE Helion OpenStack: Centralized logging, plug-in development. HP OneView, Blade Enclosure Manager: Enhanced UI, Python automation API, Java back-end. HP Storage, HP Command View: Lab tools, web service automation frameworks.\n\nHewlett-Packard, San Diego, CA\n\nSoftware Engineer, All-In-One Software Integration and Release Team• 2002 - 2005\n\nDeveloped C# architecture for dependency-based builds. Improved team processes and coding standards. Managed remote team collaboration.\n\nHewlett-Packard, Fort Collins, CO\n\nSoftware Engineer• 1998 - 2002\n\nWeb Services Tools (led lint tool development, reduced dev time by 50%), OpenStudio (enhanced C/C++ Visual Studio plug-in), Ignite-UX Installer (disaster recovery system, tape-backup product maintenance)\n\nEDUCATION\nMasters in Computer Science\n\nBrigham Young University, Provo •April 1998\n\nThesis: Application Independent UNDO at the Java Byte-code Level\n\nBachelors in Computer Science\n\nBrigham Young University, Provo •April 1996\n\nData structures, databases, operating systems, compilers, oh my!\n\nAI PROJECTS & REPOSITORIES\n\nProduction-grade implementations of agentic AI, LLM application architecture, and developer automation.\n\nLangGraph - Multi-Agent AI Systems\nPython\nLangGraph\nLangChain\nMulti-Agent Orchestration\nView on GitHub →\n\nBuilding resilient agentic AI systems with LangGraph for complex workflows, state management, and multi-agent orchestration.\n\nVisual representation of the multi-agent routing & synthesis graph.\n\nGraph Architecture & Flow\nSupervisor Routing: A central classify router node evaluates the user's intent.\nSub-Agent Dispatch: Dispatches queries to specialized subgraphs (billing, general, technology) or escapes directly to human/nonbanking handlers.\nStateful Execution Loops: Sub-agents execute self-correction loops utilizing code execution, DB queries, and web-search tools.\nResponse Synthesis: The synthesize node aggregates execution logs from all child nodes to generate a comprehensive, unified final response.\nResume RAG & MCP Server\nPython\nFastAPI\nChrome Extensions\nMCP Server\nVector DB\nRAG\nView on GitHub →\n\nModel Context Protocol server implementing RAG (Retrieval-Augmented Generation) for intelligent resume parsing, job application tracking, and automated form-filling.\n\nFeatures & Integration\nChrome Extension UI: Select resume profiles, trigger auto-filling on top job portals (Workday, Greenhouse, etc.), and capture submitted form answers.\nMCP Toolset: Exposes 11 specialized tools to LLM clients (like Claude Desktop) for parsing resumes, querying vector stores, updating status trackers, and generating cover letters.\nRAG backend: Searches vector DB using embeddings to match custom essay questions in application forms with precise parts of the applicant's experience.\nAutomated Job Tracking: Syncs application details, company Glassdoor ratings, application timelines, and recruiter emails to a local database.\nJob Search AI Agent\nPyTorch\nAnthropic API\nPydantic\nPrompt Caching\nLLM Streaming\nView on GitHub →\n\nAn advanced career suite for automated job posting analysis and resume enhancement, demonstrating specialized deep learning and pipeline orchestration.\n\n01-PARSER\nClaude API Parser\n\nExtracts skills, seniority level, salary, and red flags from raw job descriptions. Built using Anthropic tool use, Pydantic validation, prompt caching (for massive speed and cost savings), and real-time streaming.\n\n02-AGENT\nLangGraph Matcher\n\nStateGraph workflow that aligns a candidate's resume with parsed job descriptions. Creates cover letter talking points, interview questions, and prep checklists with persistent checkpoint state tracking.\n\n03-CLASSIFIER\nPyTorch Segmenter\n\nCustom neural network classifier built from scratch using PyTorch. Tokenizes resume text, processes embeddings, and runs custom training loops to segment resumes into structured blocks like Experience, Education, and Skills.\n\nLive Demo: Infrastructure Admin Agent\n\nExperience an interactive simulation of an agentic fleet administration chatbot. Try sending commands using the quick-action buttons below or by typing custom inputs.\n\nFleet Dashboard (Live State)\nWeb Server 01Application Node\nOnline\nOS:Ubuntu 20.04 LTS\nFirmware:v1.4.2\nDatabase Server 02PostgreSQL Cluster\nOnline\nOS:RHEL 8.4\nFirmware:v2.1.0\nCache Cluster 03Redis Cache Node\nOnline\nOS:Ubuntu 22.04 LTS\nFirmware:v1.1.1\nagent_admin_console.sh\nCONNECTED\n🤖 Server Admin Agent: Hello! I am connected to your local server fleet. Try clicking a quick command below or type your own instructions.\n06:54 PM\n$ list_servers\n$ update_os web-server-01\n$ upgrade_fw db-server-02\nEXECUTE\nMore AI Work\n\nAWS Bedrock LLM Pipelines • MCP Server Development • AI Developer Experience Tools • LLM Evaluation Frameworks • Agentic AI Orchestration\n\nView All Repositories on GitHub →\n\nWhile at HP, I had the pleasure of working with Jesse as one of my direct reports. What first comes to mind when I think of Jesse is his good nature and the ease of working with him. Jesse is always positive in nature, eager to tackle new challenges, and very helpful to others. The quality of his work is excellent as a programmer. He understood how to gather requirements and develop applications that were well received by our customers. I also know him to be very proactive to learn new skill sets as well. He demonstrated initiative regularly by leading programming discussion groups and seeking to help others enhance their own skills. He exemplifies the concept of a team player. Jesse has an excellent character as well for he is honest as well as a hard worker. He has my recommendation 100%.\n\nSteve Teeples... Former manager\nThis app is licensed under the MIT License.\n✕\nVibeCodingMachine\nHOMEPAGE PROJECT\n🔄\n×\n📣 Feedback\n🧪 Testing\nProject:\nChoose a project…\njobrequester\nhomepage\nvibecodingmachine\nCategory:\n💥 Defect\n✨ Feature Request\n💡 Improvement\n💬 Other\n📝 Requirement\n📋 Specification\nTitle *:\nDescription:\n📸 Capture Screenshot\n Remove Screenshot\nCancel\nSubmitting...\n\"\"\"\" (+1 more) — 2 item(s) over the target of 0."
+      ],
+      "lastEvaluatedAt": "2026-08-31T13:23:24.057Z",
+      "history": [
+        {
+          "target": 0,
+          "reasoning": "Policy: every piece of user-submitted feedback should eventually be addressed — the target is fixed at zero outstanding items, not AI-proposed.",
+          "timestamp": "2026-08-08T12:38:39.500Z",
+          "outcome": "re-confirmed-no-change",
+          "progressAtEvaluation": 0
+        },
+        {
+          "target": null,
+          "reasoning": "",
+          "timestamp": "2026-08-31T13:23:24.057Z",
+          "outcome": "analysis-failed",
+          "progressAtEvaluation": 2
+        }
+      ],
+      "progressAtLastEvaluation": 2,
+      "policyFixed": false,
+      "aiEvaluationCount": 1
+    },
+    {
+      "id": "lifecycle-marketing-plan",
+      "type": "lifecycle-stage",
+      "stageId": "marketing-plan",
+      "label": "Marketing Plan Created",
+      "description": "A MARKETING.md exists identifying the target audience and where to advertise/post.",
+      "order": 1,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-accessibility-testing",
+      "type": "lifecycle-stage",
+      "stageId": "accessibility-testing",
+      "label": "Accessibility Tested",
+      "description": "Every catalogued feature has an accessibility test — keyboard operable, named controls, sufficient contrast, no serious axe violations.",
+      "order": 7,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-security-testing",
+      "type": "lifecycle-stage",
+      "stageId": "security-testing",
+      "label": "Security Tested",
+      "description": "Every catalogued feature has a security test — authorization, injection through its inputs, leaked secrets, and rate limits.",
+      "order": 8,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-performance-testing",
+      "type": "lifecycle-stage",
+      "stageId": "performance-testing",
+      "label": "Performance Tested",
+      "description": "Every catalogued feature has a performance test asserting a stated budget at a realistic data volume.",
+      "order": 9,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-automated-ux-testing",
+      "type": "lifecycle-stage",
+      "stageId": "automated-ux-testing",
+      "label": "Automated User Experience Testing",
+      "description": "Every catalogued feature has a user-experience test — an AI agent drives it the way a user would and asserts the flow makes sense: no dead ends, no unexplained states, nothing that makes a person repeat themselves.",
+      "order": 10,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-human-ux-testing",
+      "type": "lifecycle-stage",
+      "stageId": "human-ux-testing",
+      "label": "Human User Experience Testing",
+      "description": "A person has actually sat down and used the product, and what they found awkward has been addressed. Nobody but a human can tick this one.",
+      "order": 11,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-name-and-domain",
+      "type": "lifecycle-stage",
+      "stageId": "name-and-domain",
+      "label": "Name and Domain Chosen",
+      "description": "The product has its final name, and a matching domain has been checked for availability and registered.",
+      "order": 2,
+      "reachedAt": null,
+      "status": "pending"
+    },
+    {
+      "id": "lifecycle-logo",
+      "type": "lifecycle-stage",
+      "stageId": "logo",
+      "label": "Logo Created",
+      "description": "A logo image exists in the repo and is used by the product itself — app icon, site header, README.",
+      "order": 3,
+      "reachedAt": null,
+      "status": "pending"
+    }
+  ]
+}
