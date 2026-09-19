@@ -4,3 +4,4 @@
 .vibecodingmachine/milestone-history.json merge=vcm-items
 .vibecodingmachine/milestones.json merge=vcm-items
 .vibecodingmachine/features.json merge=vcm-items
+.vibecodingmachine/ux-verdicts.json merge=vcm-items
