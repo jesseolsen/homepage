@@ -5,15 +5,20 @@
       "title": "[Auto] Fix project launch failure",
       "detectedBy": "auto-launch-fixer@vibecodingmachine.local",
       "detectedAt": "2026-08-31T00:55:15.495Z",
-      "introducedBy": null,
+      "introducedBy": {
+        "agent": null,
+        "email": "jesse.d.olsen@gmail.com",
+        "commit": "243d3692ea89d46736c4ddbac623382f1a38eae7",
+        "at": "2026-09-19T08:21:56-06:00"
+      },
       "fixedBy": {
         "agent": "claude",
         "email": "jesse.d.olsen@gmail.com",
-        "commit": null,
-        "at": "2026-10-03T22:59:51.202Z"
+        "commit": "62981336a5d7b3ca0a7bead81628dd7438b915a5",
+        "at": "2026-10-03T22:59:54.537Z"
       },
-      "fixedAt": "2026-10-03T22:59:51.202Z"
+      "fixedAt": "2026-10-03T22:59:54.537Z"
     }
   ],
-  "lastWrittenAt": "2026-10-03T22:59:51.203Z"
+  "lastWrittenAt": "2026-10-03T22:59:55.066Z"
 }
