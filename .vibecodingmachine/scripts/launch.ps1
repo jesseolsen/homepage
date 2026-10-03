@@ -1,12 +1,21 @@
 # VCM launch script — starts the project dev server.
 # Auto-detects project type; edit this file for project-specific overrides.
-# VCM polls the URL in .vibecodingmachine/config.json -> launch.url (default: http://localhost:8000).
+# VCM polls the URL in .vibecodingmachine/config.json -> launch.url (this project: http://localhost:3000).
 
 $ErrorActionPreference = 'Stop'
 $ProjectRoot = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
 Set-Location $ProjectRoot
 
-$Port = if ($env:PORT) { $env:PORT } else { '8000' }
+# Serve on the port VCM polls (launch.url in config.json), so the two can't
+# drift apart. Exported so `npm start` (react-scripts) actually sees it.
+$Port = '3000'
+try {
+  $url = [Uri](Get-Content '.vibecodingmachine/config.json' -Raw | ConvertFrom-Json).launch.url
+  if (-not $url.IsDefaultPort) { $Port = [string]$url.Port }
+} catch {}
+$env:PORT = $Port
+# Never open a browser window from an automated launch.
+$env:BROWSER = 'none'
 
 if (Test-Path 'package.json') {
   try {

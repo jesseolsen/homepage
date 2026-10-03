@@ -1,0 +1,13 @@
+{
+  "days": [
+    {
+      "date": "2026-10-03",
+      "working": 1988.9530000000002,
+      "waiting": 7291.439000000001,
+      "autoOff": 60.016
+    }
+  ],
+  "lastSampleAt": "2026-10-03T22:59:27.648Z",
+  "lastState": "waiting",
+  "lastWrittenAt": "2026-10-03T22:59:27.649Z"
+}

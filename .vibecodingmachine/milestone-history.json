@@ -286,6 +286,13 @@
       "progress": 2,
       "target": 0,
       "status": "needs-attention"
+    },
+    {
+      "date": "2026-10-03",
+      "milestoneId": "user-feedback",
+      "progress": 1,
+      "target": 0,
+      "status": "needs-attention"
     }
   ]
 }

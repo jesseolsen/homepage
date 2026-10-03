@@ -29,3 +29,6 @@ yarn-error.log*
 .vibecodingmachine/config.local.json
 
 .vibecodingmachine/commit-hold.json
+
+.vibecodingmachine/schedules.json
+.vibecodingmachine/bot-state.json

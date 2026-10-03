@@ -5,3 +5,8 @@
 .vibecodingmachine/milestones.json merge=vcm-items
 .vibecodingmachine/features.json merge=vcm-items
 .vibecodingmachine/ux-verdicts.json merge=vcm-items
+.vibecodingmachine/metrics-history.json merge=vcm-items
+.vibecodingmachine/marketing-log.json merge=vcm-items
+.vibecodingmachine/objective.json merge=vcm-items
+.vibecodingmachine/outreach.json merge=vcm-items
+.vibecodingmachine/project-details.json merge=vcm-items

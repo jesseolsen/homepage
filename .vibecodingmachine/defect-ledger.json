@@ -1,0 +1,19 @@
+{
+  "defects": [
+    {
+      "id": "FB-1788137715495-64kzoieto",
+      "title": "[Auto] Fix project launch failure",
+      "detectedBy": "auto-launch-fixer@vibecodingmachine.local",
+      "detectedAt": "2026-08-31T00:55:15.495Z",
+      "introducedBy": null,
+      "fixedBy": {
+        "agent": "claude",
+        "email": "jesse.d.olsen@gmail.com",
+        "commit": null,
+        "at": "2026-10-03T22:59:51.202Z"
+      },
+      "fixedAt": "2026-10-03T22:59:51.202Z"
+    }
+  ],
+  "lastWrittenAt": "2026-10-03T22:59:51.203Z"
+}
